@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
+
+
+
+header, section, footer, aside, nav, main, article, figure { 
+    display: block; 
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    /* font-family: 'Manrope', sans-serif; */
+    color: #777777;
+    /* background-color: green; */
+    
+}
+
+p {
+    font-family: roboto, sans-serif;
+}
+
+
+
+/* Navbar */
+
+
+/* Footer */
+
+
+/* Index Page */
+
+/* About Page */
+
+
+/* Contact Page */
+
+
+/* Media Queries */
+
+@media all and (min-width: 772px) {
+
+ }
+
+ @media all and (max-width: 772px) and (min-width: 500px) {
+
+ }
+
+ @media all and (max-width: 500px) {
+
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap version 4.6 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <!-- or??? -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+<header>
+  
+<!-- alert - borrowed code, see README.md-->
+  <div class="container">
+    <div class="alert alert-light bg-white w-100 m-0" style= "position: relative; font-size: 115%; height: 40px; border: 0; border-radius: 0;" role="alert">
+      <a href="#" class="text-dark w-100" style="text-align: center; font-size: 100%; position: absolute; top: 20%;">Covid-19 FAQs <span class="d-none d-lg-inline">| Our Committment to Clear</span></a>
+    </div>  
+  </div>
+<!-- /. alert -->
+
+<!-- nav - borrowed code, see README.md-->
+  <div class="container-flex">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="ml-1 navbar-brand text-uppercase" id="logo" href="index.html">Adrenaline<span class="d-inline d-md-none"><br></span> Fitness</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="mr-1 collapse navbar-collapse mr-2 justify-content-end align-items-center hover" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link text-white" style="font-size: 1.1rem;" href="about.html">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" style="font-size: 1.1rem;" href="membership.html">Membership</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="text-white nav-link dropdown-toggle" style="font-size: 1.1rem;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Training
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Trainers</a>
+                <a class="dropdown-item" href="#">30 Day Challenge</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" style="font-size: 1.1rem;" href="contact.html">Contact</a>
+            </li>           
+          </ul>
+        </div>
+    </nav>
+  </div>   
+<!-- /. nav -->
+
+<!-- hero -->
+  <section>
+    <div id=hero-outer>
+      <div id="hero-image">
+      </div>
+      <div class="relative">
+        <div id="cover-text">
+          <h3 id="cover-text-1">Women Exclusive <br>Gym</h3>
+          <br>
+          <P id="virtual-training">Now Offering Free Virtual Training! <span class="shorten-hero-text"><br>Feel the adrenaline anywhere, anytime!</span></P> 
+        </div>
+      </div>
+    </div>
+  </section> 
+<!-- /. hero -->
+
+</header>        
+
+<main>
+
+<!-- description banner -->
+  <section class="container-fluid">
+    <div class="row bg-white justify-content-center">
+      <div class="d-none d-md-block col-10  text-center mb-2" style="margin-top: 6%;">
+        <h1>Welcome</h1>
+      </div>
+      <div class="col-sm-10 text-center mt-2 description-paragraph" style="margin-bottom: 6%;">
+        <p class="text-black">Our gym is all about creating a supportive environment where you can build healthy lifestyle habits. We aspire to bring strong women together to create a community 
+          and we work hard everyday to make our space somewhere you will be excited to come workout. We offer a variety services, amenities, and programs where you can get your 
+          sweat on! We also offer 30 day challenges where we use accountabilty measure to keep you on track! Thank you for choosing us, we look forward to seeing you!
+        </p>
+      </div>
+    </div>
+  </section> 
+<!-- /. description banner -->
+
+<!-- membership pricing -->
+   <section class="bg-dark m-auto" style="width: 95%; border-radius: 15px;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-5 py-3 px-lg-5 my-5 mx-3 bg-light text-black membership-pricing-text" style="border: 2px solid black; border-radius: 15px;">
+          <h2>Membership Option 1</h2>
+          <h5>Only <span class="text-danger">$15.95</span> bi-weekly</h5>
+          <ul class="mt-4 ml-4">
+            <li>Unlimited Guest Services</li>
+            <li>Free Classes</li>
+            <li>Free Personal Training Assessment</li>
+            <li>Unlimited Tanning</li>
+            <li>Free Wifi</li>
+          </ul>
+          <p class="text-danger text-center mt-5">12 Months Agreement</p>
+        </div>
+        <div class="col-sm-12 col-md-5 mx-3 py-3 mb-5 my-md-5 px-lg-5 pt-0  text-black membership-pricing-text" style="border: 2px solid black; border-radius: 15px; background: #ffffff;">
+          <h2>Membership Option 2</h2>
+          <h5>Only <span class="text-danger">$15.95</span> bi-weekly</h5>
+          <ul class="mt-4 ml-4">
+            <li>Unlimited Guest Services</li>
+            <li>Free Classes</li>
+            <li>Free Personal Training Assessment</li>
+            <li>Unlimited Tanning</li>
+            <li>Free Wifi</li>
+          </ul>
+          <p class="text-danger text-center">No Commitment<br>45 days notice for cancellations</p>
+        </div>
+      </div>
+    </div> 
+  </section>
+<!-- /. membership pricing -->
+
+<!-- white banner -->
+  <div class="bg-white" style="height: 100px;"></div>
+<!-- /. white banner -->
+
+</main>
+
+
+
+<footer>
+  <div id="footer" class="container-fluid bg-dark p-0">
+    <div class="container-fluid text-center px-0"   id="footer-container">
+      <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter mx-4 text-white d-inline fa-2x"></i></a>
+      <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook mx-4 text-white d-inline fa-2x"></i></a>
+      <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram mx-4 text-white d-inline fa-2x"></i></a>
+    </div>
+  </div>
+</footer> 
+
+<!-- Is ther where it goes? -->
+<script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+<!-- What's this for again? -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
