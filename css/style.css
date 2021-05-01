@@ -1,80 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
-
-
-
-header, section, footer, aside, nav, main, article, figure { 
-    display: block; 
-}
- 
+/* Reset to all items */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+  /* Box-sizing: border-box function is add padding and border to the element without changing it's dimensions/keep it the same size. (default is box-sizing: content-box) */
+  box-sizing: border-box;
 }
 
 body {
-    /* font-family: 'Manrope', sans-serif; */
-    color: #777777;
-    /* background-color: green; */
-    
+  height: 100vh;
+  /* Centres the .memory-game container vertically/Y axis */
+  display: flex;
+  background: rgb(47, 47, 216);
 }
 
-p {
-    font-family: roboto, sans-serif;
+.memory-game {
+  width: 640px;
+  height: 640px;
+  display: flex;
+  /* This allows the .memory-card items to wrap onto multiple lines */
+  flex-wrap: wrap;
+  border: 2px solid lime;
+  /* Centres the container horizontally/X axis */
+  margin: auto;
+  /* 3D effect to give depth */
+  perspective: 1000px;
 }
 
+.memory-card {
+  /* using the calc functions to subtract the margin value from width and height */
+  width: calc(25% - 10px);
+  height: calc(33.33% - 10px);
+  /* Choosing the memory-card container to be what the .front-face/.back-face containers are relative to */
+  position: relative;
+  margin: 5px;
+  /* This is needed to give the .memory-card transition: transform a starting place  */
+  transform: scale(1);
+  /* 3D effect that inserts the element into the 3D space added above in the .memory-game otherwise the memory card is going to stay flat on the 2D plane */
+  transform-style: preserve-3d;
+  /* Need a transition for the transform property to work  */
+  transition: transform 0.2s;
+}
 
+/* The 'flip' class that is toggled */
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
 
-/* Navbar */
+/* Click effect: active pseudo class is triggered whenever it is clicked */
+.memory-card:active {
+  /* When clicked the card will shrink to 97% of it's original size*/
+  transform: scale(0.97);
+  /* Need a transition for the transform property to work  */
+  transition: transform 0.2s;
+}
 
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  /* The element has to know what it will position itself relative to. This way the .front-face and the .back-face are positioned the same, effectively making two sides to the card.  */
+  position: absolute;
+  background: #1c7ccc;
+  /* Every HTML element has a backface which is the mirrored image of itself. So need to hide the backface so can then rotate the frontface */
+  /* backface-visibility: hidden; */
+  backface-visibility: hidden;
+}
 
-/* Footer */
-
-
-/* Index Page */
-
-/* About Page */
-
-
-/* Contact Page */
-
-
-/* Media Queries */
-
-@media all and (min-width: 772px) {
-
- }
-
- @media all and (max-width: 772px) and (min-width: 500px) {
-
- }
-
- @media all and (max-width: 500px) {
-
- }
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.front-face {
+  /* So can see the image, when the backface is hidden. */
+  transform: rotateY(180deg);
+}
