@@ -1,4 +1,3 @@
-// Extra for storage when checking data
 
 // Storing the .memory-card items using the DOM
 const cards = document.querySelectorAll(".memory-card");
