@@ -1,6 +1,6 @@
 # <div align="center"> Memory Game</div>
 
-->[Live Project Here](https://dariocharles.github.io/js-milestone-project/)<-
+[Live Project Here](https://dariocharles.github.io/js-milestone-project/)
 
 This project is an interactive game where the user/player flips over each card to find matches. There are
 twelve cards created and each one flips to the other side to reveal an image. When two cards flip and they are not a match the function coded will automatically flip them back. If they are a match, then they will remain flipped where the click event is disabled. I have also made sure that when each card is in the process of flipping other cards cannot be flipped, this solved a bug that would prevent the game from working.
