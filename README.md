@@ -1,4 +1,4 @@
-<div align="center"># Memory Game</div>
+# <div align="center"> Memory Game</div>
 
 [Live Project Here](https://dariocharles.github.io/js-milestone-project/)
 
