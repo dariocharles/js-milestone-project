@@ -1,8 +1,3 @@
-<!--
-Do Readme
-Change some CSS and pictures?
- -->
-
 # Memory Game
 
 [Live Project Here](https://dariocharles.github.io/gym_project/)
@@ -174,12 +169,12 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - [Sufi Coder](https://www.youtube.com/watch?v=1uFnIy9yin8)
 - [Adam Khoury](https://www.youtube.com/watch?v=c_ohDPWmsM0)
 
-### Media
+### Images
 
 - All Images were taken from [Pexels](pexels.com)
-  - [Hero image](https://www.pexels.com/photo/photo-of-woman-using-earphones-3757954/)
-  - [About](https://www.pexels.com/photo/woman-in-gray-tank-top-holding-two-black-dumbbells-3757370/)
-  - [Contact Img](https://www.pexels.com/photo/photo-of-woman-wearing-grey-sports-bra-3757374/)
+  - []()
+  -
+  -
 
 ### Acknowledgements
 

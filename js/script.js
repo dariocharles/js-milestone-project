@@ -50,8 +50,6 @@ function flipCard() {
       }
     }     
 
-
-
 // This function is called when the second card has been flipped and it checks to see if the two cards are a match
 function checkForMatch() {
   // Checking if the dataset.framework of the first and second cards are a match
