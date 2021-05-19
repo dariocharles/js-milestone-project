@@ -10,7 +10,7 @@ body {
   height: 100vh;
   /* Centres the .memory-game container vertically/Y axis */
   display: flex;
-  background: rgb(47, 47, 216);
+  background: rgb(188, 182, 190);
 }
 
 .memory-game {
@@ -19,7 +19,6 @@ body {
   display: flex;
   /* This allows the .memory-card items to wrap onto multiple lines */
   flex-wrap: wrap;
-  border: 2px solid lime;
   /* Centres the container horizontally/X axis */
   margin: auto;
   /* 3D effect to give depth */
@@ -58,8 +57,8 @@ body {
 .back-face {
   width: 100%;
   height: 100%;
-  padding: 20px;
-  border-radius: 5px;
+px, solid, black */
+  border-radius: 10px;
   /* The element has to know what it will position itself relative to. This way the .front-face and the .back-face are positioned the same, effectively making two sides to the card.  */
   position: absolute;
   background: #1c7ccc;
