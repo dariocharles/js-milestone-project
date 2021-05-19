@@ -49,10 +49,6 @@ When the user comes to this game, they will understand the rules of the game int
 - Style
   - I chose the layout of the game to resemble a deck of cards so that it was familiar and easily understood by the user.
 
-### Wireframe
-
-I decided to begin working without wireframes. My focus was exploring what was possible with these technologies and what I can do with them.
-
 ## Features
 
 - Interactive elements: click events
