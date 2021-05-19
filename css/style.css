@@ -61,7 +61,7 @@ px, solid, black */
   border-radius: 10px;
   /* The element has to know what it will position itself relative to. This way the .front-face and the .back-face are positioned the same, effectively making two sides to the card.  */
   position: absolute;
-  background: #1c7ccc;
+  background: rgb(188, 182, 190);
   /* Every HTML element has a backface which is the mirrored image of itself. So need to hide the backface so can then rotate the frontface */
   /* backface-visibility: hidden; */
   backface-visibility: hidden;

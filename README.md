@@ -39,8 +39,8 @@ When the user comes to this game, they will understand the rules of the game int
 
 ## User Story
 
-    -As a user, I want to easily understand how to play so I can get started without a learning curve.
-    -As a user, I want to play with the game working as it is intended so that when I click an area what I expect to happen will happen.
+- As a user, I want to easily understand how to play so I can get started without a learning curve.
+- As a user, I want to play with the game working as it is intended so that when I click an area what I expect to happen will happen.
 
 ### Design
 
