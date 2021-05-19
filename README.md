@@ -75,12 +75,12 @@ When the user comes to this game, they will understand the rules of the game int
 
 ### Testing User Stories
 
-    -As a user, I want to easily understand how to play so I can get started without a learning curve.
-        -Upon seeing the webpage, the users are greeted with a clean, intuitive, and minimal layout.
-        -The main objective of the game is understood either through prior experience with this type of memory game or through simple interactions it is easy to catch on to the rules. The code itself simply allows or not allows a click so that the user can easily learn by what happens when they click.
-    -As a user, I want to play with the game working as it is intended so that when I click an area what I expect to happen will happen.
-        -The code lends itself to anticipate that the user may click a card before another card is finished flipping. In this event, the click will not activate a new flip. Otherwise, the code would be disrupted and the user's game would be flawed.
-        -The code also anticipates that a user may double click the same card. I have created a function so that if this happens the code will disregard the second click. Otherwise, the data attribute would match the first click with the second clip and the card would then stay flipped without matching a second card.
+- As a user, I want to easily understand how to play so I can get started without a learning curve.
+    - Upon seeing the webpage, the users are greeted with a clean, intuitive, and minimal layout.
+    -The main objective of the game is understood either through prior experience with this type of memory game or through simple interactions it is easy to catch on to the rules. The code itself simply allows or not allows a click so that the user can easily learn by what happens when they click.
+- As a user, I want to play with the game working as it is intended so that when I click an area what I expect to happen will happen.
+    - The code lends itself to anticipate that the user may click a card before another card is finished flipping. In this event, the click will not activate a new flip. Otherwise, the code would be disrupted and the user's game would be flawed.
+    - The code also anticipates that a user may double click the same card. I have created a function so that if this happens the code will disregard the second click. Otherwise, the data attribute would match the first click with the second clip and the card would then stay flipped without matching a second card.
 
 ### Further Testing
 
