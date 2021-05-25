@@ -25,13 +25,13 @@ The user's goal is to match each card with another until all the cards have been
 
 In this project, I wanted to use JavaScript click events to interact with the user. I created this project to better my understanding of JavaScript and implement this language with HTML and CSS. My goals were to make the user's experience seamless and anticipate and fix bugs that the User might encounter. In this game I showcased my abilities in the following:
 
-using html5 data-attribute
-using css3 features such as positioning, flexbox, perspective, backface-visibility, transitions
-accessing elements in the DOM using querySelector
-iterating through lists with forEach
-adding/removing an element class
-adding/removing event listeners
-using timeout
+- using html5 data-attribute
+- using css3 features such as positioning, flexbox, perspective, backface-visibility, transitions
+- accessing elements in the DOM using querySelector
+- iterating through lists with forEach
+- adding/removing an element class
+- adding/removing event listeners
+- using timeout
 
 ## User Experience UX <a name="UX"></a>
 
