@@ -45,7 +45,7 @@ When the user comes to this game, they will understand the rules of the game int
 ### Design
 
 - Colour Scheme
-  - The main colour used is green and was chosen because it gives the website a bright and inviting feel.
+  - The main colour is a soft purple. I chose it because it is easy on the eyes and non-distracting from the game.
 - Style
   - I chose the layout of the game to resemble a deck of cards so that it was familiar and easily understood by the user.
 
