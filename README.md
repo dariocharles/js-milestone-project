@@ -63,11 +63,11 @@ When the user comes to this game, they will understand the rules of the game int
 
 ### Frameworks, Libraries & Programs Used
 
-4. [Git](https://git-scm.com/)
+1. [Git](https://git-scm.com/)
 
 - Git was used for version control by utilizing the Visual Studio Code terminal to commit to Git and Push to GitHub.
 
-5. [GitHub:](https://github.com/)
+2. [GitHub:](https://github.com/)
 
 - GitHub is used to store the project's code after being pushed from Git.
 
@@ -77,20 +77,20 @@ When the user comes to this game, they will understand the rules of the game int
 
 - As a user, I want to easily understand how to play so I can get started without a learning curve.
     - Upon seeing the webpage, the users are greeted with a clean, intuitive, and minimal layout.
-    -The main objective of the game is understood either through prior experience with this type of memory game or through simple interactions it is easy to catch on to the rules. The code itself simply allows or not allows a click so that the user can easily learn by what happens when they click.
+    - The main objective of the game is understood either through prior experience with this type of memory game or through simple interactions it is easy to catch on to the rules. The code itself simply allows or not allows a click so that the user can easily learn by what happens when they click.
 - As a user, I want to play with the game working as it is intended so that when I click an area what I expect to happen will happen.
     - The code lends itself to anticipate that the user may click a card before another card is finished flipping. In this event, the click will not activate a new flip. Otherwise, the code would be disrupted and the user's game would be flawed.
     - The code also anticipates that a user may double click the same card. I have created a function so that if this happens the code will disregard the second click. Otherwise, the data attribute would match the first click with the second clip and the card would then stay flipped without matching a second card.
 
 ### Further Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer, and Microsoft Edge browsers.
 - The website was viewed on a Laptop device.
 - Multiple games were played to ensure that the functions all worked with any interaction the user may use.
 - I used [W3C Markup Validation](https://validator.w3.org/) to validate HTML
 - I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to validate CSS.
 
-## Known Bugs
+## Bugs
 
 - The code had a bug that when the user double-clicked a card the function would see that as a match because the data attribute would match. This would keep the card flipped without matching with a new card. I created a function to resolve this issue so that clicking a second time would not trigger an event. That way it wasn't recognized as a match.
 - A bug in the code was that when a user would click another card before the first card was fully turned over, the function had completed, then the second card would flip over but wouldn't recognize if the data attribute matched the first card or not. I created a function to resolve this issue so that the user couldn't click another card until the first function was completed.
@@ -103,9 +103,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" button on the menu.
-
-- Alternatively, Click Here for a GIF demonstrating the process starting from Step 2.
-
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
